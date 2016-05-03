@@ -29,6 +29,8 @@
 extern "C" {
 #endif
 
+#include "lwip/ip4_addr.h"
+
 typedef sint8 err_t;
 
 typedef void *espconn_handle;
